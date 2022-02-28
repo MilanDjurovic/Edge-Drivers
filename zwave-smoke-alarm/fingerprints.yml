@@ -21,6 +21,12 @@ zwaveManufacturer:
     manufacturerId: 0x010F
     productType: 0x0C02
     deviceProfileName: smoke-battery-temperature-tamperalert-temperaturealarm
+  - id: 0138/0001/0003
+    deviceLabel: First Alert Smoke Detector
+    manufacturerId: 0x0138
+    productType: 0x0001
+    productId: 0x0003
+    deviceProfileName: smoke-co-battery
   # - id: 0138/0001/0001
   #   deviceLabel: First Alert Smoke Detector
   #   manufacturerId: 0x0138
@@ -51,12 +57,4 @@ zwaveManufacturer:
   #   productType: 0x0100
   #   productId: 0x0201
   #   deviceProfileName: smoke-battery
-id: 0138/0001/0003
-deviceLabel: First Alert Smoke Detector
-manucaturerId: 0138
-productType: 0001
-productId: 0003
-deviceProfileName: smoke-co-battery
-
-
-
+  
